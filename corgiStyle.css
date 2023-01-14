@@ -27,7 +27,7 @@
 }
 
 #onramper-widget {
-  height: 650px;
+  height: 480px;
   width: 100%;
   margin: 20px 0 0 0;
   border: none;
@@ -45,8 +45,16 @@
     color: #000 !important;
 }
 
+.aim-section{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .bg {
         height: 50vh !important;
       }
+    
+    .aim-section{
+        display: block;
+    }
   }
