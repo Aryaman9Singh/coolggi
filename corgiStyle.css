@@ -1,28 +1,35 @@
 #mmenu_screen > .row {
-    min-height: 100vh;
-    background-color: red;
+  min-height: 100vh;
+  background-color: red;
 }
-
 
 .flex-fill {
-    flex:1 1 auto;
+  flex: 1 1 auto;
 }
 .bg {
+    background-image: url('./corgiPic.png');
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-  }
-  .btn, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    color: #ff8a00 !important;
+    background-position: bottom center;
+}
+
+/* .bg:hover{
+    transform: scale(1.2);
+} */
+
+.btn,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  color: #ff8a00 !important;
 }
 
 #onramper-widget {
-    height: 450px;
-    width: 100%;
-    margin: 20px 0 0 0;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    overflow: hidden;
-    }
+  height: 500px;
+  width: 100%;
+  margin: 20px 0 0 0;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
