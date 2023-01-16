@@ -43,6 +43,13 @@
   background-color: #01E4A3 !important;
    color:#1f1f1f !important;
    font-weight: 700 !important;
+   display:block !important;
+}
+.bottomButton-temp{
+  background-color: #01E4A3 !important;
+   color:#1f1f1f !important;
+   font-weight: 700 !important;
+   display:none !important;
 }
 
 .nav-link{
@@ -55,6 +62,14 @@
 } */
 
 @media only screen and (max-width: 600px) {
+
+  .bottomButton{
+    display:none !important;
+  }
+  .bottomButton-temp{
+    display:block !important;
+  }
+
     .bg {
         height: 50vh !important;
       }
