@@ -13,6 +13,10 @@
     background-position: bottom center;
 }
 
+.navbar-brand{
+  font-size: 20px;
+}
+
 /* .bg:hover{
     transform: scale(1.2);
 } */
@@ -27,7 +31,7 @@
 }
 
 #onramper-widget {
-  height: 480px;
+  height: 520px;
   width: 100%;
   margin: 20px 0 0 0;
   border: none;
@@ -45,9 +49,9 @@
     color: #000 !important;
 }
 
-.aim-section{
+/* .aim-section{
     display: none;
-}
+} */
 
 @media only screen and (max-width: 600px) {
     .bg {
